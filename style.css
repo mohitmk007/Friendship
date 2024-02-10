@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#celibrate{
+    display: none;
+}
+
+#taddyBearContent {
+    font-size: 2rem;
+    background-color: rgba(228, 59, 237, 0.567);
+    padding: 10px;
+    text-align: center;
+    display:none
+    ;
+}
+
+#yesBtn {
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 1.3rem;
+    background-color: rgb(33, 175, 33);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+#noBtn {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgb(245, 83, 83);
+    border: none;
+    border-radius: 5px;
+    /* font-weight: 700; */
+    color: white;
+    cursor: pointer;
+}
